@@ -26,5 +26,5 @@ func main() {
 //definimos la nueva función impmensaje
 //toma el argumento mensaje de tipo string
 func imprimirMensaje(mensaje string) {
-	fmt.Println("Mensaje de la función:", texto)
+	fmt.Println("Mensaje de la función:", mensaje)
  } 
