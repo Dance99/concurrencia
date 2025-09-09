@@ -1,10 +1,31 @@
-//main-go
 
-package main //paqute "main"
+//*Ejercicio:
 
-//importación de paquetes
+ func main() {
+	numero := 7
+	resultado := calcularDoble(numero)
+	fmt.Print("El doble de %d es %d\n", numero, resultado)
+ }
+
+ func calcularDoble(num int) int {
+	return num * 2
+ }
+
+ package main
+
+ //importación de paquetes
 //"fmt" es para formatear e imprimir el texto
-import "fmt"
+ //se importa el paquete "bufio"
+ impor (
+	"bufio"
+	"fmt"
+	"os"
+	"strconv" //sirve para convertir de texto a numero
+	"strings"
+ )
+
+
+//main-g0
 
 //funcion main es el punto de entrada del programa
 func main() {
@@ -23,8 +44,15 @@ func main() {
 	}
 }
 
+
+
+
+
+
 //definimos la nueva función impmensaje
 //toma el argumento mensaje de tipo string
 func imprimirMensaje(mensaje string) {
 	fmt.Println("Mensaje de la función:", mensaje)
  } 
+
+ 
