@@ -44,8 +44,15 @@ func main() {
 	}
 }
 
+//Nuevo codigo paso#3
 
+//creacion de un lector de entrada
+reader := bufio.NewReader(os.Stdin)
 
+fmt.Print("Por favor, ingresa un numero para calcular su doble: ")
+
+//Se lee hasta que el usuario presione Enter
+entrada, _ := reader .reader.ReadString('\n')
 
 
 
